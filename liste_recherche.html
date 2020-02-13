@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="liste_recherche.css"/>
+		<title>GameShop.0 résultat recherche</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<img src="images/fond_splatoon.jpg" id="bg" alt="le fond de la page.">
+		<div id="haut">
+			<div class="titre1">
+				<h1><img src="images/nom_titre.gif" id="branche" alt="logo du magasin."></h1>
+			</div>
+			<a href="GameShop.0_page_garde.html" id="boutonretour"><img src="images/retour.png" id="retour" alt="Un bouton retour."></a>
+		</div>
+		<div id="contenue_page">
+			<div id="resultat">
+				<div id="barre_recherche">
+					<form action="liste_recherche.html">
+						<p>Recherche:<input type="text" name="recherche"></p>
+						<p id="categorie">Catégorie:<select name="categorie"><option value="0">...</option><option value="1">Action</option><option value="2">Stratégie</option><option value="3">Aventure</option><option value="4">Puzzle</option><option value="5">Course</option><option value="6">Indépendant</option></select></p>
+						<button id="trouver">Trouver</button>
+					</form>
+				</div>
+				<div id="liste_jeux">
+					<div class="jeu">
+						<img src="images/PikminBox.png" alt="boite de jeu." class="img" onclick="location.href='error.html';">
+						<div class="presentation">
+							<div class="titre_descri">
+								<h2>Pikmin 4</h2>
+								<p class="description">Les Pikmin sont de retour pour vous filer un coup de main. Une toute nouvelle aventure et de nouveaux types de Pikmin tels que...<a href="error.html">Lire la suite</a></p>
+							</div>
+							<div class="note_prix">
+								<p>NOTE : <strong>16/20</strong></p>
+								<p>Prix : <strong>50€</strong></p>
+							</div>
+						</div>
+					</div>
+					<div class="jeu">
+						<img src="images/M&LBox.png" alt="boite de jeu." class="img" onclick="location.href='description.html';">
+						<div class="presentation">
+							<div class="titre_descri">
+								<h2>Mario & Luigi: Rivals Quest</h2>
+								<p class="description">Mario et Luigi se retrouve dans une toute nouvelle aventure dans laquelle ils devront coopérer avec leurs rivaux. Voyez débarquer...<a href="description.html">Lire la suite</a></p>
+							</div>
+							<div class="note_prix">
+								<p>NOTE : <strong>18/20</strong></p>
+								<p>Prix : <strong>45€</strong></p>
+							</div>
+						</div>
+					</div>
+					<div class="jeu">
+						<img src="images/CallieBox.png" alt="boite de jeu." class="img" onclick="location.href='error.html';">
+						<div class="presentation">
+							<div class="titre_descri">
+								<h2>Splatoon Origins: Team Callie</h2>
+								<p class="description">L'origine des Inklings enfin dévoilé. Suivez Callie dans les récits de son grand-père pour découvrir les secrets de la grande guerre de territoire...<a href="error.html">Lire la suite</a></p>
+							</div>
+							<div class="note_prix">
+								<p>NOTE : <strong>17/20</strong></p>
+								<p>Prix : <strong>60€</strong></p>
+							</div>
+						</div>
+					</div>
+					<div class="jeu">
+						<img src="images/MarieBox.png" alt="boite de jeu." class="img" onclick="location.href='error.html';">
+						<div class="presentation">
+							<div class="titre_descri">
+								<h2>Splatoon Origins: Team Marie</h2>
+								<p class="description">L'origine des Inklings enfin dévoilé. Suivez Marie dans les récits de son grand-père pour découvrir les secrets de la grande guerre de territoire...<a href="error.html">Lire la suite</a></p>
+							</div>
+							<div class="note_prix">
+								<p>NOTE : <strong>17/20</strong></p>
+								<p>Prix : <strong>60€</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="banniere_promo">
+			</div>
+		</div>
+		<div>
+			<a href="qui_sommes_nous.html" class="lien">Qui sommes nous?</a>
+			<a href="contacter.html" class="lien">Nous contactez.</a>
+			<a href="GameShop.0_page_garde.html" class="lien">Page d'accueil.</a>
+		</div>
+	</body>
+</html>

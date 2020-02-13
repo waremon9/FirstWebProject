@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: yellow;
+}
+
+h1{
+	margin-right: 10%;
+}
+
+p{
+	padding-left: 13%;
+}
+
+#bg{
+	position: fixed;
+	top: 180px;
+	left: 0;
+	height: calc(100% - 180px);
+	width:100%;
+	filter: blur(6px) saturate(0.8);
+	z-index: -1;
+}
+
+#branche{
+	border: 5px outset black;
+}
+
+#haut{
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	height: 180px;
+	width: 100%;
+	flex-direction: row-reverse;
+	background-image: url("images/fond_mario.jpg");
+	background-repeat: repeat-x;
+}
+
+.titre1{
+	text-align: center;
+	flex: 1;
+}
+
+#boutonretour img{
+	margin-top: 20%;
+	margin-left: 70px;
+	width: 100px;
+}
+
+#retour{
+	height: 75%;
+	width: 200%;
+}
+
+#article{
+	display: flex;
+	flex-direction: column;
+	text-align: space-around;
+}
+
+h2{
+	font-family: "calibri";
+	font-size: 28pt;
+}
+
+h3{
+	font-family: "calibri";
+	font-size: 20pt;
+}
+
+h4.titres{
+	font-family: "calibri";
+	font-size: 17pt;
+	text-decoration: none;
+}
+
+#achat{
+	display: flex;
+	flex-direction: row;
+}
+#prix{
+	font-size: 15pt;
+	margin: 10%;
+	height: 10px;
+}
+
+#panier{
+	padding-top: 3%;
+	margin: 4%;
+	height: 30%;
+	width: 40%;
+	min-width: 40%;
+	border-width: 6px;
+	border-style: double;
+	border-color: green;
+	text-align: center;
+	background-color: white;
+}
+
+#icone_panier{
+	width: 40%;
+}
+
+#toutDescription{
+	max-width: 50%; 
+}
+
+#description{
+	display: flex;
+	flex-direction: row;
+}
+
+#description > div {
+	flex:70;
+}
+
+#description #image{
+	flex:30;
+	padding: 0 5%;
+}
+
+#mariobox{
+	border-style: ridge;
+	border-width: 10px;
+	border-color: red;
+	width: 100%;
+	min-width: 200px;
+}
+
+.descri{
+	font-size: 16pt;
+	color: white;
+}
+
+#commentaires{
+	margin-right: 20%;
+}
+
+#comm{
+	display: flex;
+	flex-direction: row;
+	padding-left: 13%;
+}
+
+#lacher{
+	height: 60px;
+	width: 100px;
+	align-self: flex-end;
+	margin-left: 2%;
+}
+
+.titres{
+	color: white;
+	text-decoration: underline;
+	margin-left: 10%;
+}
+
+.lien{
+	color: white;
+	font-family: "calibri";
+	font-size: 14pt;
+}

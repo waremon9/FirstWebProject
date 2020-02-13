@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: yellow;
+}
+	 
+.titre1{
+	text-align: center;
+	flex: 1;
+}
+
+#boutonretour img{
+	margin-top: 20%;
+	margin-left: 70px;
+	width: 100px;
+}
+
+#retour{
+	height: 75%;
+	width: 200%;
+}
+
+#branche{
+	border: 5px outset black;
+	margin-right: 10%;	
+}
+
+#haut{
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	height: 180px;
+	width: 100%;
+	flex-direction: row-reverse;
+	background-image: url("images/fond_mario.jpg");
+	background-repeat: repeat-x;
+	z-index: 42;
+}
+
+#bg{
+	position: fixed;
+	top: 180px;
+	left: 0;
+	height: calc(100% - 180px);
+	width:100%;
+	filter: blur(6px) saturate(0.8);
+	z-index: -1;
+}
+
+#contenue_page{
+	display: flex;
+	flex-direction: row;
+	background-color: white; 
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: groove;
+	border-top-style: none;
+	border-color: blue;
+	border-width: 10px;
+}
+
+#banniere_promo{
+	background-image: url("images/promo.png");
+	background-repeat: repeat-y;
+	width: 40%;
+	top: 180px;
+	position: sticky;
+	border-left-color: black;
+	border-left-style: solid;
+}
+
+#resultat{
+	display: flex;
+	flex-direction: column;
+}
+
+form{
+	display: flex;
+	flex-direction: row;
+}
+
+#barre_recherche{
+	align-self: center;
+	margin-top: 20px;
+	font-family: "calibri";
+	font-size: 20pt;
+	border-style: ridge;
+	border-color: black;
+}
+
+#categorie{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#trouver{
+	height: 60px;
+	width: 80px;
+	margin-top: 2%;
+}
+
+#liste_jeux{
+	display: flex;
+	flex-direction: column;
+}
+
+.jeu{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-right: 10%;
+}
+
+.presentation{
+	display: flex;
+	flex-direction: column;
+}
+
+.titre_descri{
+	display: flex;
+	flex-direction: row;
+}
+
+.titre_descri a{
+	text-decoration: none;
+	font-style: italic;
+	color: inherit;
+}
+
+h2{
+	font-family: "calibri";
+	font-size: 20pt;
+	margin-left: 5%;
+	margin-right: 6%;
+}
+
+.description{
+	font-family: "calibri";
+	font-size: 15pt;
+	margin-right: 10%;
+}
+
+.note_prix{
+	display: flex;
+	flex-direction: row;
+	font-family: "calibri";
+	font-size: 20pt;
+}
+
+.img{
+	height: 28%;
+	width: 28%;
+	border: double;
+	border-width: 7px;
+	background-color: red;
+}
+
+[onclick] {
+	cursor: pointer;
+}
+
+.lien{
+	color: white;
+	font-family: "calibri";
+	font-size: 14pt;
+}

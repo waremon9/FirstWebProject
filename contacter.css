@@ -1,0 +1,39 @@
+body{
+	background-color: yellow; 
+}
+
+#bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width:100%;
+	filter: blur(6px);
+	z-index: -1;
+}
+
+#contact{
+	display: flex;
+	flex-flow: column;
+	font-family: arial;
+	font-size: 22pt;
+	text-align: center;
+	margin-top: 1rem;
+	color: white;
+}
+
+#discord{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+h1{
+	font-size: 30pt;
+	text-align: center;
+}
+
+.lien{
+	color: white;
+	font-family: "calibri";
+	font-size: 14pt;
+}
